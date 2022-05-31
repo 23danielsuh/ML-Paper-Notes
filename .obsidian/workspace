@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Persistent Homology.md",
+            "file": "Persistent Homology on Images.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Persistent Homology.md",
+                "file": "Persistent Homology on Images.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +89,9 @@
   },
   "active": "acb42d54f1e77c7f",
   "lastOpenFiles": [
-    "Persistent Homology.md",
-    "Topological Data Analysis (TDA).md"
+    "Persistent Homology on Images.md",
+    "Balzano Research Paper on Persistent Homology.md",
+    "Topological Data Analysis (TDA).md",
+    "TDALabs Notes on Persistent Homology.md"
   ]
 }
