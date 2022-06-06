@@ -7,8 +7,12 @@
         "id": "acb42d54f1e77c7f",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Topology/Brief Overview of Persistent Homology.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Topology/Brief Overview of Persistent Homology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +89,15 @@
   },
   "active": "acb42d54f1e77c7f",
   "lastOpenFiles": [
+    "Topology/Brief Overview of Persistent Homology.md",
     "Topology/Balzano Research Paper on Persistent Homology.md",
+    "Topology/images/Screen Shot 2022-06-06 at 08.51.58.png",
+    "Topology/Wasserstein and Bottleneck Distance.md",
     "Topology/Persistent Homology on Images.md",
     "Topology/Sliding Window.md",
     "Topology/Topological Data Analysis (TDA).md",
     "TDALabs Notes on Persistent Homology.md",
     "Balzano Research Paper on Persistent Homology.md",
-    "Topology/images/Screen Shot 2022-06-06 at 07.47.54.png",
-    "Topology/images/Screen Shot 2022-06-06 at 07.48.02.png",
-    "Persistent Homology on Images.md",
-    "Topological Data Analysis (TDA).md"
+    "Topology/images/Screen Shot 2022-06-06 at 07.47.54.png"
   ]
 }
