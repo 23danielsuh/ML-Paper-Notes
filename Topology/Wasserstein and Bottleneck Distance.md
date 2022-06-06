@@ -11,10 +11,10 @@
 	- The bottleneck distance $d_b(P, Q)$ between persistance diagrams $P$ and $Q$ is:
 	-   ![[Screen Shot 2022-06-06 at 08.54.44.png]]
 		- This person left out that it takes the infimum over all partial matchings $M$
-	- Some properties:
-	- $d_b(P, P) = 0$
-	- $d_b(P, Q) = d_b(Q, P)$
-	- $d_b(P, R) \leq d_b(P, Q) + d_b(Q, R)$
+	- Some properties of the bottleneck distance:
+		- $d_b(P, P) = 0$
+		- $d_b(P, Q) = d_b(Q, P)$
+		- $d_b(P, R) \leq d_b(P, Q) + d_b(Q, R)$
 
 ### Wasserstein Distance
 ![[Screen Shot 2022-06-06 at 09.01.48.png]]

@@ -20,4 +20,13 @@
 - Significant features are the long codes
 - Persistence barcodes are stable with respect to perturbations (small changes) of the data
 - Barcode is computable using linear algebra (runtime is $O(n^3)$, where $n$ is the number of simplices
-- 
+- Questions:
+	- Why do we use $\mathbb{Z}/2$ coefficients? Why does it change the persistent homology graph sometimes and why does it not?
+	- Why do we use the Wasserstein and Bottleneck distance in the context of this project?
+	- Is persistence images and persistence landscapes the only way to plug a set of persistance points into a NN/ML algorithm?
+	- High persistence points are deemed to be "features" of the dataset. We find these features from persistent homology -> what form do they take when extracted from the dataset? In other words, how do we go from a persistent homology model to using that as features into the NN algorithm?
+	- Time complexity of persistent homology? How many data points is too much for persistent homology?
+	- Are we just using persistent homology for TDA? 
+	- What are we actually using persistent homology on? In the Parkinson's paper, it said that we used it to discern any patterns or covariates, is this what we are using it for?
+	- Why is there a point at $(0, \infty)$ every time for $H_0$?
+	- 
