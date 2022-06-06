@@ -7,12 +7,8 @@
         "id": "acb42d54f1e77c7f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Persistent Homology on Images.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Persistent Homology on Images.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +84,15 @@
   },
   "active": "acb42d54f1e77c7f",
   "lastOpenFiles": [
-    "Persistent Homology on Images.md",
-    "Balzano Research Paper on Persistent Homology.md",
+    "Topology/Balzano Research Paper on Persistent Homology.md",
+    "Topology/Persistent Homology on Images.md",
+    "Topology/Sliding Window.md",
+    "Topology/Topological Data Analysis (TDA).md",
     "TDALabs Notes on Persistent Homology.md",
+    "Balzano Research Paper on Persistent Homology.md",
+    "Topology/images/Screen Shot 2022-06-06 at 07.47.54.png",
+    "Topology/images/Screen Shot 2022-06-06 at 07.48.02.png",
+    "Persistent Homology on Images.md",
     "Topological Data Analysis (TDA).md"
   ]
 }

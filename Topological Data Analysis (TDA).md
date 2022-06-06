@@ -1,2 +1,0 @@
-# TDA
-### TDA Research Paper
