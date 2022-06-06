@@ -1,0 +1,23 @@
+# Overview of Persistent Homology
+- There are certain patterns in the persistence diagram that indicate a certain shape. For example, lots of noise with $H_1$ and a defined persistent point with $H_2$ likely means that there is a sphere
+- We choose a distance $d$ or $\phi$, and we draw an edge from the center of one circle to another if the distance between the circles is $d$ or less. 
+- ![[Pasted image 20220605143945.png]]
+- This graph shows us that the point sform a single cluster at scale $d$, but it doesn't tell us about higher-order features, like holes
+- A simplicial complex is built from points, edges, faces, etc. [[Persistent Homology on Images#^275837]]
+- ![[Pasted image 20220605144625.png]]
+- Homology counts components, holds, voids, etc.
+	- Holes are just holes in a shape
+	- Voids contain faces but have an empty interior
+	- ![[Pasted image 20220605144706.png]]
+- Fill in complete simplices (if there is a shape that is formed from 3+ points and 3+ edges, then we fill it in to create a face). This is called the Rips Complex [[Persistent Homology on Images#^08366f]]
+	- The purple is the Rips complex:
+	- ![[Pasted image 20220605144844.png]]
+- How to choose $d$? [[Balzano Research Paper on Persistent Homology]]
+	- Consider **all** distances of $d$ lol
+- Let's say a hole appears at $d_1$. Then at some distance $d_2$, this hole will disappear because it will be replaced with a face instead. The persistence of this hole is: $(d_1, d_2)$
+- ![[Pasted image 20220605145242.png]]
+- Short bars in the barcode are just noise
+- Significant features are the long codes
+- Persistence barcodes are stable with respect to perturbations (small changes) of the data
+- Barcode is computable using linear algebra (runtime is $O(n^3)$, where $n$ is the number of simplices
+- 
